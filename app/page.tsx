@@ -1,6 +1,7 @@
 import Image from "next/image";
 import HeroSection from "./components/HeroSection";
 import Navbar from "./components/Navbar";
+import AboutMe from "./components/AboutMe";
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <Navbar />
       <div className='container mt-24 mx-auto py-4 px-12'>
         <HeroSection />
+        <AboutMe />
       </div>
     </main>
   );
