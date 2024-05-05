@@ -31,3 +31,18 @@ body {
     text-wrap: balance;
   }
 }
+
+.input-styles {
+  background-color: #18191e; /* Tailwind: bg-[#18191E] */
+  border: 1px solid #33353f; /* Tailwind: border border-[#33353F] */
+  color: #f5f5f5; /* Tailwind uses text-gray-100 which is very light grey, usually #f5f5f5 */
+  font-size: 0.875rem; /* Tailwind: text-sm (14px based on a default of 16px root font size) */
+  border-radius: 0.5rem; /* Tailwind: rounded-lg (8px) */
+  display: block; /* Tailwind: block */
+  width: 100%; /* Tailwind: w-full */
+  padding: 0.625rem; /* Tailwind: p-2.5 (10px) */
+}
+
+.input-styles::placeholder {
+  color: #9ca2a9; /* Tailwind: placeholder-[#9CA2A9] */
+}
